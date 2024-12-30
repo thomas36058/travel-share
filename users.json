@@ -1,0 +1,39 @@
+{
+    "users": [
+        {
+            "id": "USR001",
+            "name": "Isabella Martinez",
+            "age": 28,
+            "email": "isabella.martinez@email.com",
+            "country": "Spain"
+        },
+        {
+            "id": "USR002",
+            "name": "Alexander Chen",
+            "age": 34,
+            "email": "alex.chen@email.com",
+            "country": "Singapore"
+        },
+        {
+            "id": "USR003",
+            "name": "Sophie Anderson",
+            "age": 31,
+            "email": "sophie.anderson@email.com",
+            "country": "France"
+        },
+        {
+            "id": "USR004",
+            "name": "Lucas Santos",
+            "age": 25,
+            "email": "lucas.santos@email.com",
+            "country": "Brazil"
+        },
+        {
+            "id": "USR005",
+            "name": "Emma Thompson",
+            "age": 29,
+            "email": "emma.thompson@email.com",
+            "country": "United Kingdom"
+        }
+    ]
+}

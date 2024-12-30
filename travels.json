@@ -1,0 +1,434 @@
+{
+  "travels": [
+    {
+      "id": "TRV001",
+      "userId": "USR003",
+      "travel": {
+        "party": "friends",
+        "tripDates": {
+          "start": "2024-06-15",
+          "end": "2024-06-18"
+        },
+        "budget": "balanced",
+        "moneySpent": {
+          "total": 3500,
+          "currency": "EUR",
+          "breakdown": {
+            "accommodation": 1200,
+            "transportation": 800,
+            "food": 600,
+            "activities": 700,
+            "shopping": 200
+          }
+        },
+        "countries": [
+          "France",
+          "Italy",
+          "Spain"
+        ],
+        "dayOne": {
+          "country": "France",
+          "city": "Paris",
+          "activities": [
+            "Eiffel Tower visit",
+            "Seine River cruise",
+            "Louvre Museum"
+          ]
+        },
+        "dayTwo": {
+          "country": "Italy",
+          "city": "Rome",
+          "activities": [
+            "Colosseum tour",
+            "Vatican Museums",
+            "Trevi Fountain"
+          ]
+        },
+        "dayThree": {
+          "country": "Spain",
+          "city": "Barcelona",
+          "activities": [
+            "Sagrada Familia",
+            "Park Guell",
+            "La Rambla"
+          ]
+        },
+        "gallery": [
+          {
+            "id": 1,
+            "description": "Group photo at Eiffel Tower",
+            "date": "2024-06-15",
+            "location": "Paris, France",
+            "imageUrl": "paris_001.jpg"
+          },
+          {
+            "id": 2,
+            "description": "Sunset at Colosseum",
+            "date": "2024-06-16",
+            "location": "Rome, Italy",
+            "imageUrl": "rome_001.jpg"
+          },
+          {
+            "id": 3,
+            "description": "Evening at Sagrada Familia",
+            "date": "2024-06-17",
+            "location": "Barcelona, Spain",
+            "imageUrl": "barcelona_001.jpg"
+          }
+        ],
+        "moreInformations": {
+          "transportation": {
+            "betweenCountries": "High-speed train",
+            "localTransport": "Public transit and walking"
+          },
+          "weather": "cold",
+          "visaRequired": false
+        }
+      }
+    },
+    {
+      "id": "TRV002",
+      "userId": "USR001",
+      "travel": {
+        "party": "only me",
+        "tripDates": {
+          "start": "2024-07-10",
+          "end": "2024-07-13"
+        },
+        "budget": "cheap",
+        "moneySpent": {
+          "total": 1200,
+          "currency": "USD",
+          "breakdown": {
+            "accommodation": 400,
+            "transportation": 300,
+            "food": 250,
+            "activities": 150,
+            "shopping": 100
+          }
+        },
+        "countries": [
+          "Thailand",
+          "Vietnam",
+          "Cambodia"
+        ],
+        "dayOne": {
+          "country": "Thailand",
+          "city": "Bangkok",
+          "activities": [
+            "Grand Palace",
+            "Wat Pho Temple",
+            "Street Food Tour"
+          ]
+        },
+        "dayTwo": {
+          "country": "Vietnam",
+          "city": "Hanoi",
+          "activities": [
+            "Ha Long Bay Day Trip",
+            "Old Quarter Walking Tour",
+            "Water Puppet Show"
+          ]
+        },
+        "dayThree": {
+          "country": "Cambodia",
+          "city": "Siem Reap",
+          "activities": [
+            "Angkor Wat Sunrise",
+            "Ta Prohm Temple",
+            "Night Market"
+          ]
+        },
+        "gallery": [
+          {
+            "id": 1,
+            "description": "Sunset at Grand Palace",
+            "date": "2024-07-10",
+            "location": "Bangkok, Thailand",
+            "imageUrl": "bangkok_001.jpg"
+          },
+          {
+            "id": 2,
+            "description": "Ha Long Bay Cruise",
+            "date": "2024-07-11",
+            "location": "Hanoi, Vietnam",
+            "imageUrl": "hanoi_001.jpg"
+          },
+          {
+            "id": 3,
+            "description": "Sunrise at Angkor Wat",
+            "date": "2024-07-12",
+            "location": "Siem Reap, Cambodia",
+            "imageUrl": "siemreap_001.jpg"
+          }
+        ],
+        "moreInformations": {
+          "transportation": {
+            "betweenCountries": "Budget airlines",
+            "localTransport": "Tuk-tuk and buses"
+          },
+          "weather": "hot",
+          "visaRequired": true
+        }
+      }
+    },
+    {
+      "id": "TRV003",
+      "userId": "USR002",
+      "travel": {
+        "party": "a couple",
+        "tripDates": {
+          "start": "2024-09-20",
+          "end": "2024-09-23"
+        },
+        "budget": "luxury",
+        "moneySpent": {
+          "total": 8000,
+          "currency": "USD",
+          "breakdown": {
+            "accommodation": 3500,
+            "transportation": 1500,
+            "food": 1500,
+            "activities": 1000,
+            "shopping": 500
+          }
+        },
+        "countries": [
+          "Maldives",
+          "Singapore",
+          "Indonesia"
+        ],
+        "dayOne": {
+          "country": "Maldives",
+          "city": "Male",
+          "activities": [
+            "Private Island Tour",
+            "Submarine Excursion",
+            "Sunset Cruise"
+          ]
+        },
+        "dayTwo": {
+          "country": "Singapore",
+          "city": "Singapore",
+          "activities": [
+            "Gardens by the Bay",
+            "Marina Bay Sands",
+            "Michelin Star Dining"
+          ]
+        },
+        "dayThree": {
+          "country": "Indonesia",
+          "city": "Bali",
+          "activities": [
+            "Private Villa Retreat",
+            "Spa Treatment",
+            "Ubud Forest Tour"
+          ]
+        },
+        "gallery": [
+          {
+            "id": 1,
+            "description": "Overwater Villa",
+            "date": "2024-09-20",
+            "location": "Male, Maldives",
+            "imageUrl": "maldives_001.jpg"
+          },
+          {
+            "id": 2,
+            "description": "Gardens by the Bay Light Show",
+            "date": "2024-09-21",
+            "location": "Singapore",
+            "imageUrl": "singapore_001.jpg"
+          },
+          {
+            "id": 3,
+            "description": "Sunset at Rice Terraces",
+            "date": "2024-09-22",
+            "location": "Bali, Indonesia",
+            "imageUrl": "bali_001.jpg"
+          }
+        ],
+        "moreInformations": {
+          "transportation": {
+            "betweenCountries": "Business class flights",
+            "localTransport": "Private car service"
+          },
+          "weather": "hot",
+          "visaRequired": false
+        }
+      }
+    },
+    {
+      "id": "TRV004",
+      "userId": "USR005",
+      "travel": {
+        "party": "family",
+        "tripDates": {
+          "start": "2024-12-20",
+          "end": "2024-12-23"
+        },
+        "budget": "flexible",
+        "moneySpent": {
+          "total": 5000,
+          "currency": "USD",
+          "breakdown": {
+            "accommodation": 2000,
+            "transportation": 1200,
+            "food": 800,
+            "activities": 700,
+            "shopping": 300
+          }
+        },
+        "countries": [
+          "Japan",
+          "South Korea",
+          "Taiwan"
+        ],
+        "dayOne": {
+          "country": "Japan",
+          "city": "Tokyo",
+          "activities": [
+            "Disneyland Tokyo",
+            "Akihabara District",
+            "Robot Restaurant"
+          ]
+        },
+        "dayTwo": {
+          "country": "South Korea",
+          "city": "Seoul",
+          "activities": [
+            "Lotte World",
+            "Namsan Tower",
+            "Korean BBQ Experience"
+          ]
+        },
+        "dayThree": {
+          "country": "Taiwan",
+          "city": "Taipei",
+          "activities": [
+            "Taipei 101",
+            "Night Market Tour",
+            "National Palace Museum"
+          ]
+        },
+        "gallery": [
+          {
+            "id": 1,
+            "description": "Family at Disneyland",
+            "date": "2024-12-20",
+            "location": "Tokyo, Japan",
+            "imageUrl": "tokyo_001.jpg"
+          },
+          {
+            "id": 2,
+            "description": "View from Namsan Tower",
+            "date": "2024-12-21",
+            "location": "Seoul, South Korea",
+            "imageUrl": "seoul_001.jpg"
+          },
+          {
+            "id": 3,
+            "description": "Night Market Fun",
+            "date": "2024-12-22",
+            "location": "Taipei, Taiwan",
+            "imageUrl": "taipei_001.jpg"
+          }
+        ],
+        "moreInformations": {
+          "transportation": {
+            "betweenCountries": "Premium economy flights",
+            "localTransport": "Mix of subway and taxis"
+          },
+          "weather": "cold",
+          "visaRequired": false
+        }
+      }
+    },
+    {
+      "id": "TRV005",
+      "userId": "USR004",
+      "travel": {
+        "party": "friends",
+        "tripDates": {
+          "start": "2024-03-15",
+          "end": "2024-03-18"
+        },
+        "budget": "balanced",
+        "moneySpent": {
+          "total": 4200,
+          "currency": "USD",
+          "breakdown": {
+            "accommodation": 1800,
+            "transportation": 900,
+            "food": 700,
+            "activities": 500,
+            "shopping": 300
+          }
+        },
+        "countries": [
+          "Brazil",
+          "Argentina",
+          "Chile"
+        ],
+        "dayOne": {
+          "country": "Brazil",
+          "city": "Rio de Janeiro",
+          "activities": [
+            "Christ the Redeemer",
+            "Copacabana Beach",
+            "Samba Show"
+          ]
+        },
+        "dayTwo": {
+          "country": "Argentina",
+          "city": "Buenos Aires",
+          "activities": [
+            "Tango Lesson",
+            "La Boca Tour",
+            "Steak House Dinner"
+          ]
+        },
+        "dayThree": {
+          "country": "Chile",
+          "city": "Santiago",
+          "activities": [
+            "Wine Tasting Tour",
+            "San Cristobal Hill",
+            "Central Market Visit"
+          ]
+        },
+        "gallery": [
+          {
+            "id": 1,
+            "description": "Sunset at Copacabana",
+            "date": "2024-03-15",
+            "location": "Rio de Janeiro, Brazil",
+            "imageUrl": "rio_001.jpg"
+          },
+          {
+            "id": 2,
+            "description": "Colorful La Boca",
+            "date": "2024-03-16",
+            "location": "Buenos Aires, Argentina",
+            "imageUrl": "buenosaires_001.jpg"
+          },
+          {
+            "id": 3,
+            "description": "Wine Valley Tour",
+            "date": "2024-03-17",
+            "location": "Santiago, Chile",
+            "imageUrl": "santiago_001.jpg"
+          }
+        ],
+        "moreInformations": {
+          "transportation": {
+            "betweenCountries": "Regional flights",
+            "localTransport": "Rideshare and metro"
+          },
+          "weather": "hot",
+          "visaRequired": false
+        }
+      }
+    }
+  ]
+}
